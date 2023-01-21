@@ -7,11 +7,15 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './Mainportal/Dashboard/dashboard/dashboard.component';
 import { LayoutsComponent } from './Mainportal/Layouts/layouts/layouts.component';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
-    LayoutsComponent
+    LayoutsComponent,
+
+   
   ],
   imports: [
     BrowserModule,
