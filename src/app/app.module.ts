@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './Mainportal/Dashboard/dashboard/dashboard.component';
 import { LayoutsComponent } from './Mainportal/Layouts/layouts/layouts.component';
+import { HeaderComponent } from './Mainportal/Header/header/header.component';
 
 
 
@@ -14,6 +15,7 @@ import { LayoutsComponent } from './Mainportal/Layouts/layouts/layouts.component
     AppComponent,
     DashboardComponent,
     LayoutsComponent,
+    HeaderComponent,
 
    
   ],
