@@ -1,6 +1,254 @@
 
-    <main class="col-md-9 ms-sm-auto col-lg-12 px-md-4  ">
-<app-header></app-header>
+ <link rel="icon" type="image/x-icon" href="../assets/pic/favicon.ico" />
+
+<header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 ms-5" >Furniture</a>
+    <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <ul class="navbar-nav px-3">
+      <li class="nav-item text-nowrap">
+        <a class="nav-link" [routerLink]="['']" routerLinkActive="router-link-active" > <i class="fas fa-power-off"></i> Sign out</a>
+      </li>
+    </ul>
+  </header>
+  
+  <div class="container-fluid"> 
+    <div class="row">
+      <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse " style="background-color: white;">
+        <img src="../assets/pic/favicon.ico"><span class="sneat">Sneat</span>
+        <div class="position-sticky pt-3">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" routerLink="./dashboard" routerLinkActive="router-link-active" style="color: #696cff;" >
+                <span data-feather="home" ></span ><i class="fa fa-home"  style="color: #696cff;"></i>
+                Dashboard
+              </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" routerLink="./products" routerLinkActive="router-link-active" style="color: #8592a3;" >
+                  <span data-feather="home"></span><i class='far fa-object-group' style="color: #8592a3;"></i>
+                  Layouts
+                  <div class="btn-group">
+                    <!-- <button type="button" class="btn btn-danger" style="width: 250px ;">Action</button> -->
+
+                    <button type="button" class="btn  dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: white; color: #8592a3;">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="#">Without menu</a></li>
+                        <li><a class="dropdown-item" href="#">Without navbar</a></li>
+                        <li><a class="dropdown-item" href="#">Container</a></li>
+                        <li><a class="dropdown-item" href="#">Fluid</a></li>
+                        <li><a class="dropdown-item" href="#">Blank</a></li>
+                    </ul>
+                </div>
+                </a>
+              </li>
+
+              <li class="menu-header small text-uppercase mt-4">
+                <span class="menu-header-text " style="color: #8592a3;" >───&nbsp;&nbsp;Pages</span>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" routerLink="./products" routerLinkActive="router-link-active" style="color: #8592a3;" >
+                  <span data-feather="home"></span><i class="fa fa-gear" style="color: #8592a3;"></i>
+                  Account Settings
+                  <div class="btn-group">
+                    <!-- <button type="button" class="btn btn-danger" style="width: 250px ;">Action</button> -->
+
+                    <button type="button" class="btn  dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: white; color: #8592a3;">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="#">Account</a></li>
+                        <li><a class="dropdown-item" href="#">Notifications</a></li>
+                        <li><a class="dropdown-item" href="#">Connections</a></li>
+                    </ul>
+                </div>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" routerLink="./products" routerLinkActive="router-link-active" style="color: #8592a3;" >
+                  <span data-feather="home"></span><i class='fas fa-lock-open' style="color: #8592a3;"></i>
+                  Authentications
+                  <div class="btn-group">
+                    <!-- <button type="button" class="btn btn-danger" style="width: 250px ;">Action</button> -->
+
+                    <button type="button" class="btn  dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: white; color: #8592a3;">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="#">Login</a></li>
+                        <li><a class="dropdown-item" href="#">Register</a></li>
+                        <li><a class="dropdown-item" href="#">Forgot Password</a></li>
+                    </ul>
+                </div>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" routerLink="./products" routerLinkActive="router-link-active"  style="color: #8592a3;">
+                  <span data-feather="home"></span><i class="fa fa-cube" style="color: #8592a3;"></i>
+                  Misc
+                  <div class="btn-group">
+                    <!-- <button type="button" class="btn btn-danger" style="width: 250px ;">Action</button> -->
+
+                    <button type="button" class="btn  dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: white; color: #8592a3;">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="#">Error</a></li>
+                        <li><a class="dropdown-item" href="#">Under Maintenance</a></li>
+                        
+                    </ul>
+                </div>
+                </a>
+              </li>
+              <li class="menu-header small text-uppercase mt-4">
+                <span class="menu-header-text" style="color: #8592a3;">───&nbsp;&nbsp;Components</span>
+              </li>
+
+              
+              
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" routerLink="./products" routerLinkActive="router-link-active" style="color: #8592a3;" >
+                  <span data-feather="home"></span><i class="fa fa-credit-card" style="color: #8592a3;"></i>
+                  Cards
+             
+                </a>
+              </li>
+
+              
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" routerLink="./products" routerLinkActive="router-link-active" style="color: #8592a3;" >
+                  <span data-feather="home"></span><i class='fas fa-clone' style="color: #8592a3;"></i>
+                  User interface
+                  <div class="btn-group">
+                    <!-- <button type="button" class="btn btn-danger" style="width: 250px ;">Action</button> -->
+
+                    <button type="button" class="btn  dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: white; color: #8592a3;">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="#">Accordion</a></li>
+                        <li><a class="dropdown-item" href="#">Alerts</a></li>
+                        <li><a class="dropdown-item" href="#">Badges</a></li>
+                        <li><a class="dropdown-item" href="#">Buttons</a></li>
+                        <li><a class="dropdown-item" href="#">Carousel</a></li>
+                        <li><a class="dropdown-item" href="#">Collapse</a></li>
+                        <li><a class="dropdown-item" href="#">Dropdowns</a></li>
+                        <li><a class="dropdown-item" href="#">Footer</a></li>
+                        <li><a class="dropdown-item" href="#">List groups</a></li>
+                        <li><a class="dropdown-item" href="#">Modals</a></li>
+                        <li><a class="dropdown-item" href="#">Navbar</a></li>
+                    </ul>
+                </div>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" routerLink="./products" routerLinkActive="router-link-active"  style="color: #8592a3;">
+                  <span data-feather="home"></span><i class='fas fa-wallet' style="color: #8592a3;"></i>
+                  Extended UI
+                  <div class="btn-group">
+                    <!-- <button type="button" class="btn btn-danger" style="width: 250px ;">Action</button> -->
+
+                    <button type="button" class="btn  dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: white; color: #8592a3;">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="#">Perfect scrollbar</a></li>
+                        <li><a class="dropdown-item" href="#">Text Divider</a></li>
+                        
+                    </ul>
+                </div>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" routerLink="./products" routerLinkActive="router-link-active"  style="color: #8592a3;">
+                  <span data-feather="home"></span><i class='fas fa-crown' style="color: #8592a3;"></i>
+                  Boxicons
+                 
+                </a>
+              </li>
+
+              
+             
+
+              <li class="menu-header small text-uppercase mt-4">
+                <span class="menu-header-text">───&nbsp;&nbsp; Forms &amp; Tables</span>
+              </li>
+
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" routerLink="./products" routerLinkActive="router-link-active" style="color: #8592a3;" >
+                  <span data-feather="home"></span><i class="fa fa-file-text" style="color: #8592a3;"></i>
+                  Form Elements
+                  <div class="btn-group">
+                    <!-- <button type="button" class="btn btn-danger" style="width: 250px ;">Action</button> -->
+
+                    <button type="button" class="btn  dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: white; color: #8592a3;">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="#">Basic Inputs</a></li>
+                        <li><a class="dropdown-item" href="#">Input groups</a></li>
+                        
+                    </ul>
+                </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" routerLink="./products" routerLinkActive="router-link-active" style="color: #8592a3;" >
+                  <span data-feather="home"></span><i class="fa fa-file-text-o" style="color: #8592a3;"></i>
+                  Form Layouts
+                  <div class="btn-group">
+                    <!-- <button type="button" class="btn btn-danger" style="width: 250px ;">Action</button> -->
+
+                    <button type="button" class="btn  dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: white; color: #8592a3;">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="#">Vertical Form</a></li>
+                        <li><a class="dropdown-item" href="#">Horizontal Form</a></li>
+                        
+                    </ul>
+                </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" routerLink="./products" routerLinkActive="router-link-active" style="color: #8592a3;" >
+                  <span data-feather="home"></span><i class="fa fa-table" style="color: #8592a3;"></i>
+                 Tables
+                </a>
+              </li>
+
+              <li class="menu-header small text-uppercase mt-3">
+                <span class="menu-header-text">───&nbsp;&nbsp;Misc</span>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" routerLink="./products" routerLinkActive="router-link-active" style="color: #8592a3;" >
+                  <span data-feather="home"></span><i class='fas fa-headset' style="color: #8592a3;"></i>
+                  Support
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" routerLink="./products" routerLinkActive="router-link-active" style="color: #8592a3;" >
+                  <span data-feather="home"></span><i class="fa fa-file-word-o" style="color: #8592a3;"></i>
+                  Documentation
+                </a>
+              </li>
+
+          </ul>
+  
+         
+        
+        </div>
+      </nav>
+      <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
 <router-outlet></router-outlet> 
 </main>
 
