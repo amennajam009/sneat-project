@@ -6,6 +6,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './Mainportal/Dashboard/dashboard/dashboard.component';
 import { LayoutsComponent } from './Mainportal/Layouts/layouts/layouts.component';
+import { WithoutMenuComponent } from './Mainportal/Layouts/without-menu/without-menu.component';
+import { WithoutNavbarComponent } from './Mainportal/Layouts/without-navbar/without-navbar.component';
+import { ContainerComponent } from './Mainportal/Layouts/container/container.component';
+import { FluidComponent } from './Mainportal/Layouts/fluid/fluid.component';
+import { BlankComponent } from './Mainportal/Layouts/blank/blank.component';
 
 
 
@@ -15,6 +20,11 @@ import { LayoutsComponent } from './Mainportal/Layouts/layouts/layouts.component
     AppComponent,
     DashboardComponent,
     LayoutsComponent,
+    WithoutMenuComponent,
+    WithoutNavbarComponent,
+    ContainerComponent,
+    FluidComponent,
+    BlankComponent,
     
 
    
