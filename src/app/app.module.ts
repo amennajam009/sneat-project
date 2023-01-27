@@ -13,9 +13,7 @@ import { FluidComponent } from './Mainportal/Layouts/fluid/fluid.component';
 import { BlankComponent } from './Mainportal/Layouts/blank/blank.component';
 import { FooterComponent } from './Mainportal/footer/footer/footer.component';
 import { DashboardComponent } from './Mainportal/Dashboard/dashboard/dashboard.component';
-import { AccountsComponent } from './Mainportal/Accounts/accounts/accounts.component';
-import { NotificationComponent } from './Mainportal/Accounts-setting/notification/notification.component';
-import { ConnectionsComponent } from './Mainportal/Accounts-setting/connections/connections.component';
+
 import { AccountComponent } from './Mainportal/Account/account/account.component';
 import { ConnectionComponent } from './Mainportal/Account/connection/connection.component';
 
@@ -34,9 +32,7 @@ import { ConnectionComponent } from './Mainportal/Account/connection/connection.
     BlankComponent,
     FooterComponent,
     DashboardComponent,
-    AccountsComponent,
-    NotificationComponent,
-    ConnectionsComponent,
+   
     AccountComponent,
     ConnectionComponent,
     
