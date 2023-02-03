@@ -10,6 +10,9 @@ import { WithoutNavbarComponent } from './Mainportal/Layouts/without-navbar/with
 import { AccountComponent } from './Mainportal/Account/account/account.component';
 import { ConnectionComponent } from './Mainportal/Account/connection/connection.component';
 import { NotificationComponent } from './Mainportal/Account/notification/notification.component';
+import { LoginComponent } from './Mainportal/Auth/login/login.component';
+import { RegisterComponent } from './Mainportal/Auth/register/register.component';
+import { ForgetPasswordComponent } from './Mainportal/Auth/forget-password/forget-password.component';
 
 
 
@@ -26,7 +29,10 @@ const routes: Routes = [
   {path:'footer', component:FooterComponent},
   {path:'account', component:AccountComponent},
   {path:'connection', component:ConnectionComponent},
-  {path:'notification', component:NotificationComponent}
+  {path:'notification', component:NotificationComponent},
+  {path:'Login' , component:LoginComponent},
+  {path:'register', component:RegisterComponent},
+  {path:'forget-password',component:ForgetPasswordComponent}
 
 
  

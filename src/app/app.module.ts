@@ -16,6 +16,9 @@ import { DashboardComponent } from './Mainportal/Dashboard/dashboard/dashboard.c
 
 import { AccountComponent } from './Mainportal/Account/account/account.component';
 import { ConnectionComponent } from './Mainportal/Account/connection/connection.component';
+import { LoginComponent } from './Mainportal/Auth/login/login.component';
+import { RegisterComponent } from './Mainportal/Auth/register/register.component';
+import { ForgetPasswordComponent } from './Mainportal/Auth/forget-password/forget-password.component';
 
 
 
@@ -35,6 +38,9 @@ import { ConnectionComponent } from './Mainportal/Account/connection/connection.
    
     AccountComponent,
     ConnectionComponent,
+    LoginComponent,
+    RegisterComponent,
+    ForgetPasswordComponent,
     
 
    
