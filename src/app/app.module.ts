@@ -19,6 +19,8 @@ import { ConnectionComponent } from './Mainportal/Account/connection/connection.
 import { LoginComponent } from './Mainportal/Auth/login/login.component';
 import { RegisterComponent } from './Mainportal/Auth/register/register.component';
 import { ForgetPasswordComponent } from './Mainportal/Auth/forget-password/forget-password.component';
+import { ErrorComponent } from './Mainportal/Error/error/error.component';
+import { UnderMaintenanceComponent } from './Mainportal/Error/under-maintenance/under-maintenance.component';
 
 
 
@@ -41,6 +43,8 @@ import { ForgetPasswordComponent } from './Mainportal/Auth/forget-password/forge
     LoginComponent,
     RegisterComponent,
     ForgetPasswordComponent,
+    ErrorComponent,
+    UnderMaintenanceComponent,
     
 
    

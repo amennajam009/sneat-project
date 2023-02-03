@@ -13,6 +13,8 @@ import { NotificationComponent } from './Mainportal/Account/notification/notific
 import { LoginComponent } from './Mainportal/Auth/login/login.component';
 import { RegisterComponent } from './Mainportal/Auth/register/register.component';
 import { ForgetPasswordComponent } from './Mainportal/Auth/forget-password/forget-password.component';
+import { ErrorComponent } from './Mainportal/Error/error/error.component';
+import { UnderMaintenanceComponent } from './Mainportal/Error/under-maintenance/under-maintenance.component';
 
 
 
@@ -32,7 +34,9 @@ const routes: Routes = [
   {path:'notification', component:NotificationComponent},
   {path:'Login' , component:LoginComponent},
   {path:'register', component:RegisterComponent},
-  {path:'forget-password',component:ForgetPasswordComponent}
+  {path:'forget-password',component:ForgetPasswordComponent},
+  {path:'Error',component:ErrorComponent},
+  {path:'under-maintenance',component:UnderMaintenanceComponent}
 
 
  
