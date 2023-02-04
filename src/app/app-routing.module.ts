@@ -15,6 +15,7 @@ import { RegisterComponent } from './Mainportal/Auth/register/register.component
 import { ForgetPasswordComponent } from './Mainportal/Auth/forget-password/forget-password.component';
 import { ErrorComponent } from './Mainportal/Error/error/error.component';
 import { UnderMaintenanceComponent } from './Mainportal/Error/under-maintenance/under-maintenance.component';
+import { CardsComponent } from './Mainportal/Cards/cards/cards.component';
 
 
 
@@ -36,7 +37,8 @@ const routes: Routes = [
   {path:'register', component:RegisterComponent},
   {path:'forget-password',component:ForgetPasswordComponent},
   {path:'Error',component:ErrorComponent},
-  {path:'under-maintenance',component:UnderMaintenanceComponent}
+  {path:'under-maintenance',component:UnderMaintenanceComponent},
+  {path:'cards',component:CardsComponent},
 
 
  

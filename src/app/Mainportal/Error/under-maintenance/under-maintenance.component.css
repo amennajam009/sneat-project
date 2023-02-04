@@ -1,0 +1,17 @@
+.misc-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - (1.625rem * 2));
+    text-align: center;
+  }
+  .btn{
+    background-color: #6610f2;
+    color: white;
+    
+  }
+ 
+  .text{
+    color: rgba(67, 89, 113, 0.6);;
+  }
