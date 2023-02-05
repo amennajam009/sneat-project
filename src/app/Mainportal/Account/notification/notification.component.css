@@ -9,6 +9,7 @@
 
 
 
+
 .layout-navbar {
     background-color: rgba(255, 255, 255, 0.95) !important;
     -webkit-backdrop-filter: saturate(200%) blur(6px);
@@ -1021,7 +1022,7 @@
     --bs-font-monospace: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
     --bs-root-font-size: 16px;
-    --bs-body-font-family: var(--bs-font-sans-serif);
+  
     --bs-body-font-size: 0.9375rem;
     --bs-body-font-weight: 400;
     --bs-body-line-height: 1.53;
@@ -4969,7 +4970,7 @@
     z-index: 1099;
     display: block;
     margin: 0;
-    font-family: var(--bs-font-sans-serif);
+ 
     font-style: normal;
     font-weight: 400;
     line-height: 1.53;
@@ -5071,7 +5072,7 @@
     z-index: 1091;
     display: block;
     max-width: 276px;
-    font-family: var(--bs-font-sans-serif);
+
     font-style: normal;
     font-weight: 400;
     line-height: 1.53;
@@ -8167,7 +8168,7 @@
   
   .breadcrumb-style1 .breadcrumb-item + .breadcrumb-item::before,
   .breadcrumb-style2 .breadcrumb-item + .breadcrumb-item::before {
-    font-family: boxicons;
+
     vertical-align: middle;
   }
   
@@ -9918,9 +9919,7 @@
     padding-bottom: 3rem !important;
   }
   
-  .font-monospace {
-    font-family: var(--bs-font-monospace) !important;
-  }
+  
   
   .fs-1 {
     font-size: calc(1.3625rem + 1.35vw) !important;
