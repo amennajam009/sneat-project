@@ -16711,4 +16711,26 @@
     color: white;
   }
 
-  
+  .header{
+    background-color: #0d6efd;
+  }
+  .gray{
+    background-color: #adb5bd;
+  }
+  .green{
+    background-color: #20c997;
+  }
+  .red{
+    background-color: #dc3545;
+  }
+  .warning{
+    background-color: #ffc107;
+  }
+  .info{
+    background-color: #0dcaf0;
+  }
+
+  .btn{
+    background-color: #696cff;
+    color: white;
+  }
