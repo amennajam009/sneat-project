@@ -16,6 +16,9 @@ import { ForgetPasswordComponent } from './Mainportal/Auth/forget-password/forge
 import { ErrorComponent } from './Mainportal/Error/error/error.component';
 import { UnderMaintenanceComponent } from './Mainportal/Error/under-maintenance/under-maintenance.component';
 import { CardsComponent } from './Mainportal/Cards/cards/cards.component';
+import { AccordionComponent } from './Mainportal/user-interface/accordion/accordion.component';
+import { AlertsComponent } from './Mainportal/user-interface/alerts/alerts.component';
+import { CollapseComponent } from './Mainportal/user-interface/collapse/collapse.component';
 
 
 
@@ -39,6 +42,10 @@ const routes: Routes = [
   {path:'Error',component:ErrorComponent},
   {path:'under-maintenance',component:UnderMaintenanceComponent},
   {path:'cards',component:CardsComponent},
+  {path:'accordion',component:AccordionComponent},
+  {path:'alerts',component:AlertsComponent},
+  {path:'collapse',component:CollapseComponent}
+
 
 
  

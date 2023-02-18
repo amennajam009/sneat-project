@@ -22,6 +22,9 @@ import { ForgetPasswordComponent } from './Mainportal/Auth/forget-password/forge
 import { ErrorComponent } from './Mainportal/Error/error/error.component';
 import { UnderMaintenanceComponent } from './Mainportal/Error/under-maintenance/under-maintenance.component';
 import { CardsComponent } from './Mainportal/Cards/cards/cards.component';
+import { AccordionComponent } from './Mainportal/user-interface/accordion/accordion.component';
+import { AlertsComponent } from './Mainportal/user-interface/alerts/alerts.component';
+import { CollapseComponent } from './Mainportal/user-interface/collapse/collapse.component';
 
 
 
@@ -47,6 +50,9 @@ import { CardsComponent } from './Mainportal/Cards/cards/cards.component';
     ErrorComponent,
     UnderMaintenanceComponent,
     CardsComponent,
+    AccordionComponent,
+    AlertsComponent,
+    CollapseComponent,
     
 
    
